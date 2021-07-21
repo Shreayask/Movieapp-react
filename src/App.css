@@ -1,38 +1,84 @@
 .App {
   text-align: center;
+  background-color: rgb(19, 44, 23);
 }
+ .pages{
+   margin-top: 3rem;
+ }
+ .nav-item a{
+   text-decoration: none;
+   font-weight: 800;
+   letter-spacing: 0.037rem;
+   cursor: pointer;
+   color: hsl(69, 50%, 60%) !important;
+   margin-right: 0.75rem;
+   margin-left: 2rem;
+  
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ .nav-item a:hover{
+  color: hsl(83, 86%, 72%) !important;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ }
+ .nav-item{
+   margin-top: 0.35rem;
+ }
+ .legend{
+   width: 8% !important;
+   background-color: rgb(17, 13, 13) !important;
+   margin-bottom: 15rem;
+   margin-left: -4rem !important;
+   color:rgb(255, 254, 254) !important ;
+   border-radius: 6rem !important;
+ }
+
+ .titles{
+  color:rgb(168, 131, 8) ;
+  margin-left: 35rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+ 
+ }
+
 
 .App-link {
-  color: #61dafb;
+  color: #232e24;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/****  pagination  ****/
+.page-link{
+  background-color: rgb(217, 223, 190);
+  color:rgb(27, 19, 22)
+  
 }
+
+
+/**** search ***/
+
+.form-control {
+  width:60%;
+  height:1.8rem !important;
+  padding-left: 1rem;
+  margin-left:4rem ;
+  background-color: rgb(217, 223, 190);
+ 
+  color:white;
+}
+
+/*** Movie ***/
+.movietitle{
+  color:"white";
+  margin-top: 0.7rem ;
+ 
+  color:rgb(168, 131, 8);
+
+}
+
+.btn{
+  width:4rem;
+  height:1.9rem;
+
+}
+
+
